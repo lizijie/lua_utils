@@ -1,0 +1,13 @@
+-- local field = nil
+-- class_type.super = setmetatable({} {
+-- 	__index  = function (_, k)
+-- 		field = class_type.__base[k]
+-- 		return class_type.super
+-- 	end,
+-- 	__newindex = function ()
+-- 		error("not supoort")
+-- 	end,
+-- 	__call = function (_, ...)
+-- 		return field(class_type, ...)
+-- 	end
+-- })
